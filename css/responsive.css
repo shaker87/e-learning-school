@@ -1,0 +1,212 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+    /*Header Area Start */
+    .navbar .navbar-brand img {
+        width: 150px;
+        height: 50px;
+    }
+
+    .navbar .navbar-toggler-icon {
+        color: #000;
+        font-size: 30px;
+    }
+
+    .custom-button {
+        background-color: #21B573;
+        color: #fff;
+        font-size: 14px;
+        padding: 8px 20px;
+        font-weight: normal;
+        border: none;
+        border-radius: 25px;
+        margin-left: 0 !important;
+    }
+
+    .custom-button:hover {
+        cursor: pointer;
+    }
+
+    /* Header Area End */
+    /* Banner Area Start */
+    .banner-area {
+        background-color: #F0FFF0;
+        height: auto;
+    }
+
+    .banner-area h5 {
+        color: #FD511A;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .banner-area h1 {
+        font-size: 25px !important;
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .banner-area p {
+        color: #6C6B6B;
+        font-size: 12px !important;
+        margin: 10px 0px;
+    }
+
+    /* Banner Area End */
+    /* Counter Area Start */
+    .counter-area {
+        padding: 60px 0px;
+    }
+
+    .counter-box {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin-bottom: 20px;
+        background-color: #F8FFFB;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Counter Area End */
+    /* Online Course Area Start*/
+    .online-courses-area {
+        margin-bottom: 60px;
+    }
+
+    .area-title h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px !important;
+        color: #413960;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        color: #413960;
+    }
+
+    .card-text {
+        color: #585859;
+        font-size: 14px;
+    }
+
+    .calendar img,
+    .people img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .calendar p,
+    .people p {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    /* Online Course Area Start*/
+    /*Testimional Area Start*/
+    .testimional-area {
+        margin-bottom: 50px;
+    }
+
+    .testimional-area p {
+        padding: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px !important;
+
+    }
+
+    /*Testimional Area End*/
+
+    /* Contact Area Start*/
+
+    .contact-area {
+        background-color: #F8FFFB;
+        padding: 50px 0px;
+    }
+
+    .contact-text {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .txt1 {
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 2px solid gray;
+        background-color: transparent;
+        padding: 10px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .text-area {
+        width: 100%;
+        height: 200px;
+        display: block;
+        border: none;
+        border-bottom: 2px solid gray;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    /* Contact Area End*/
+    /* Footer Area Start*/
+
+    .footer-area {
+        background-color: #282531;
+        padding: 50px 0px;
+    }
+
+    .footer-area p {
+        font-size: 12px;
+        font-weight: normal;
+        color: #fff;
+    }
+
+    .footer-area ul {
+        list-style: none;
+    }
+
+    .footer-area ul li a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .footer-area h5 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .footer-bottom-part {
+        color: #fff;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    /*Footer Area End*/
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
